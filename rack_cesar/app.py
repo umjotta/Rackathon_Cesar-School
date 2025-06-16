@@ -230,5 +230,15 @@ def reiniciar_historico():
     return jsonify({'mensagem': 'Histórico reiniciado com sucesso!', 'acertos': 0, 'erros': 0})
 
 
+@app.route('/excluir-conta', methods=['POST'])
+def excluir_conta():
+    aluno = Aluno.query.first()
+    
+    if aluno:
+        db.session.delete(aluno)
+    
+    db.session.commit()
+    return redirect('/login')
+
 if __name__ == '__main__':
     app.run(debug=True)
