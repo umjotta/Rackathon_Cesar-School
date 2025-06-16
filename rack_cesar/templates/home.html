@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduPlay - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}"/>
+    <link rel="stylesheet" href="/rack_cesar/static/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body id="body_home">
+    
+    <aside class="barra_lateral">
+      <img id="logo_barra" src="{{ url_for('static', filename='fotos/logo.png') }}" alt="Logo" />
+      <nav class="menu">
+        <ul>
+          <li><a href="{{ url_for('home') }}"><i id="icon" class="fa-solid fa-house"></i> <span>Home</span></a></li>
+          <li><a href="{{ url_for('aula') }}"><i id="icon" class="fa-brands fa-youtube"></i> <span>Aulas</span></a></li>
+          <li><a href="{{ url_for('exerc') }}"><i id="icon" class="fa-solid fa-list-check"></i> <span>Exercícios</span></a></li>
+          <li><a href="{{ url_for('jogo') }}"><i id="icon" class="fa-solid fa-gamepad"></i> <span>Jogos</span></a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="home">
+      <div class="bem-vindo">
+        <h1>Olá, Bem-Vindo ao EduPlay</h1>
+        <div class="user-icon">
+          <a href="{{ url_for('perfil') }}">
+            <img src="{{ url_for('static', filename='fotos/Jotta.jpg') }}" alt="Usuário">
+          </a>
+        </div>
+      </div>
+      
+      <!-- Bloco de Estatísticas -->
+      <div class="aba-principal">
+          <div class="mini-blocos">
+            {% for materia, info in stats.items() %}
+            <div class="bloco">
+              <h3>{{ materia|capitalize }}</h3>
+              <p>Acertos: {{ info.acertos }}</p>
+              <p>Erros: {{ info.erros }}</p>
+              {% if info.acertos + info.erros > 0 %}
+                <p>Proficiencia: {{ (info.acertos/(info.acertos+info.erros)*100)|round(1) }}%</p>
+              {% else %}
+                <p>Proficiencia: N/A</p>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+
+          <div class="mini-blocos">
+            <div class="bloco">
+              <h3>Jogos - Estatistics</h3>
+              <!-- Conteúdo extra para jogos, se desejado -->
+            </div>
+            <!-- Outros blocos para jogos, se necessário -->
+          </div>
+      </div>
+    </section>
+  </body>
+</html>

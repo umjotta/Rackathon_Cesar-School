@@ -1,0 +1,198 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #dcdcdca1;
+}
+
+/* Ajuste para o topo fixo */
+.barra-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.barra-top img {
+    border-radius: 15px;
+    position: relative;
+    left: -280px;
+    width: 80px;
+    height: auto;
+}
+.barra-top img:hover {
+    transform: scale(1.1);
+}
+
+.menu ul {
+    display: flex;
+    position: relative;
+    top: 54px;
+    left: -35px;
+    gap: 88px;
+    list-style: none;
+}
+
+.menu a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+.menu a:hover {
+    color: rgb(11, 61, 127);
+}
+
+
+.main-content {
+    margin-top: -240px;
+    padding: 400px;
+}
+/* Seção de questões */
+.bloc-quest {
+    background-color: #fff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 700px;
+    /* margin: auto; */
+}
+.menu-question ul {
+    display: flex;
+    position: relative;
+    top: -20px;
+    gap: 140px;
+    list-style: none;
+}
+
+.menu-question a {
+    color: #333;
+}
+.menu-question a:hover {
+    color: rgb(11, 61, 127);
+}
+
+.pergunta {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+
+/* Botão de envio */
+.responder {
+    background-color: rgb(11, 61, 127);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 160px;
+    left: 150px;
+}
+
+.responder:hover {
+    background-color: #004c99;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bloc-dados {
+    background-color: #fff;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    width: 200px;
+    height: 265px;
+    position: relative;
+    left: 600px;
+    top: -327px;
+    /* margin: auto; */
+}
+
+/* 
+
+*/
+
+.passar {
+    background-color: transparent; /* Remove o fundo */
+    all: unset; /* Remove todas as propriedades padrão do botão */
+    cursor: pointer; /* Mantém o cursor indicando que é clicável */
+}
+
+.passar:hover {
+    color: #004c99;
+}
+
+.respond {
+    color: #fff;
+    background-color:#004c99;
+    border: none;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 3%;
+    position: relative;
+    left: 200px;
+    top: 130px;
+}
+.arc {
+    display: flex;
+    background-color: transparent; /* Remove o fundo */
+    border: 1px solid rgb(11, 61, 127); /* Define apenas o contorno */
+    color: rgb(0, 0, 0); /* Ajusta a cor do texto */
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: -20px;
+    width: 240px;
+    margin-bottom: 15px;
+}
+
+.reinic {
+    color: #fff;
+    background-color:#004c99;
+    border: none;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 5%;
+    position: relative;
+    left: 30px;
+    top: 240px;
+}
+
+.reinic:hover {
+    transform: scale(1.1);
+    color: #333;
+    background-color: #0063c7;
+}

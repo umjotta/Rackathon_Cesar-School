@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUPLAY - Jogos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='jogo.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!--Importando icones-->
+</head>
+<body>
+
+    <!-- Barra Lateral -->
+    <aside class="barra_lateral">
+        <img id="logo_barra" src="{{ url_for('static', filename='fotos/logo.png') }}" alt="Logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="{{ url_for('home') }}"><i id="icon" class="fa-solid fa-house"></i> <span>Home</span></a></li>
+                <li><a href="{{ url_for('aula') }}"><i id="icon" class="fa-brands fa-youtube"></i> <span>Aulas</span></a></li>
+                <li><a href="{{ url_for('exerc') }}"><i id="icon" class="fa-solid fa-list-check"></i> <span>Exercícios</span></a></li>
+                <li><a href="{{ url_for('jogo') }}"><i id="icon" class="fa-solid fa-gamepad"></i> <span>Jogos</span></a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- Fim barra Lateral -->
+
+    <!--Bem vindo-->
+    <header class="bem-vindo">
+        <h1>Olá, Bem-Vindo à sua sala de jogos educacionais</h1>
+        <div class="user-icon">
+            <a href="{{ url_for('perfil') }}">
+                <img src="{{ url_for('static', filename='fotos/Jotta.jpg') }}" alt="Usuário">
+            </a>
+        </div>
+    </header>
+    <!--Fim bem vindo-->
+
+    
+    <!-- Seção de Jogos -->
+    <section class="games-section">
+        <h2>Escolha um jogo:</h2>
+        <div class="games-grid">
+            <div class="game">
+                <img src="{{ url_for('static', filename='fotos/forca.png') }}">
+                <p>Jogo da Forca</p>
+                <a href="#" class="play-button">Jogar</a>
+            </div>
+            <div class="game">
+                <img src="{{ url_for('static', filename='fotos/memoria.png') }}">
+                <p>Jogo da Memória</p>
+                <a href="#" class="play-button">Jogar</a>
+            </div>
+            <div class="game">
+                <img src="{{ url_for('static', filename='fotos/quiz.png') }}">                    
+                <p>Quiz Educacional</p>
+                <a href="#" class="play-button">Jogar</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

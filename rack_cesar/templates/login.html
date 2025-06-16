@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='login.css') }}"
+    />
+    <link rel="stylesheet" href="/rack_cesar/static/login.css" />
+  </head>
+  <body>
+    <div class="EduPlay">
+      <h1>EduPlay</h1>
+      <p>A educação nas suas mãos</p>
+    </div>
+    <div class="login">
+      <h2>Faça seu login</h2>
+      <div class="log">
+        <form action="/login" method="POST" class="form_cad">
+          <label class="camp" for="cpf">CPF:</label>
+          <input id="cpf" class="inp_log" name="cpf"type="text" placeholder="CPF" required/>
+          <label class="camp" for="senha">Senha:</label>
+          <input id="senha" class="inp_log" name="senha" type="text" placeholder="Senha" required/>
+          <a class="lik_log" href="{{ url_for('exibir_recuperar_senha') }}">Recuperar senha ></a>
+          <button class="bot_log" type="submit">Entrar</button>
+          <a href="{{ url_for('exibir_cadastro') }}">Cadastrar ></a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

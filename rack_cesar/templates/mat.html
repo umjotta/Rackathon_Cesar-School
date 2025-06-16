@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática - Exercícios</title>
+    <link rel="stylesheet" href="/rack_cesar/static/port.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='port.css') }}">
+</head>
+<body>
+
+    <header class="barra-top">
+        <a href="{{ url_for('exerc') }}">
+            <img src="{{ url_for('static', filename='fotos/logo.png') }}" alt="Logo">
+        </a>
+        <nav class="menu">
+            <ul class="session-select">
+                <li><a href="{{ url_for('exercicios', materia='portugues') }}">Português</a></li>
+                <li><a href="{{ url_for('exercicios', materia='matematica') }}">Matemática</a></li>
+                <li><a href="{{ url_for('exercicios', materia='javascript') }}">Quimica</a></li>
+                <li><a href="{{ url_for('exercicios', materia='css') }}">Redação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <header class="bem-vindo">
+            <h1>Matemática - Exercícios</h1>
+        </header>
+        <section class="bloc-quest">
+            {% if questao %}
+            <nav class="menu-question">
+                <ul>
+                    <button class="passar" onclick="mudarQuestao('matematica', 'anterior')">< Anterior</button>
+                    <li><span>Questão</span></li>
+                    <button class="passar" onclick="mudarQuestao('matematica', 'proxima')">Próxima ></button>
+                </ul>
+            </nav>
+                <p class="pergunta">{{ questao.texto }}</p>
+                <div class="options">
+                    <label><input type="radio" name="answer" value="A"> A) {{ questao.alternativa_a }}</label>
+                    <label><input type="radio" name="answer" value="B"> B) {{ questao.alternativa_b }}</label>
+                    <label><input type="radio" name="answer" value="C"> C) {{ questao.alternativa_c }}</label>
+                    <label><input type="radio" name="answer" value="D"> D) {{ questao.alternativa_d }}</label>
+                    <label><input type="radio" name="answer" value="E"> E) {{ questao.alternativa_e }}</label>
+                </div>
+                <button class="respond" onclick="verificarResposta('matematica')">Responder</button>
+                <p id="resultado"></p>
+                <input type="hidden" id="questao_id" value="{{ questao.id }}">
+            {% else %}
+                <p>Nenhuma questão disponível.</p>
+            {% endif %}
+        </section>
+        <div class="bloc-dados">
+            <button class="reinic" onclick="reiniciarHistorico('matematica')"> Reiniciar Historico </button>
+            <p class="arc" id="acertos">✅ Acertos: 0</p>
+            <p class="arc" id="erros">❌ Erros: 0</p>
+        </div>
+    </main>
+    <script src="{{ url_for('static', filename='verificar.js') }}"></script>
+</body>
+</html>

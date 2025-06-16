@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #dcdcdca1;
+}
+
+.barra_lateral {
+    position: fixed;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+#logo_barra {
+    width: 65px;
+    height: 65px;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    border-radius: 20%;
+   /* align-self: flex-start; */
+    position: relative;
+    left: -95px; /* Ajuste conforme necessário */
+}
+
+#logo_barra:hover {
+    transform: scale(1.1);
+}
+
+/* Menu de navegação */
+.menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #8b898980;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    position: relative;
+    left: -50px;
+}
+.menu a:hover {
+    background-color: rgba(187, 186, 186, 0.247);
+    color: rgb(11, 61, 127);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Cabeçalho da página */
+.bem-vindo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.bem-vindo h1{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+.user-icon img {
+    position: relative;
+    top: 50px;
+    left: -20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-icon img:hover {
+    transform: scale(1.2);
+}
+
+/* Seção de jogos */
+.games-section {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 950px;
+    position: relative;
+    top: 85px;
+    left: 300px;
+}
+
+.games-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+}
+
+.game img {
+    width: 150px;
+    height: 150px;
+}
+
+.play-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.play-button:hover {
+    background-color: #0056b3;
+}

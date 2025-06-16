@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='cad.css') }}" />
+    <link rel="stylesheet" href="/rack_cesar/static/cad.css" />
+  </head>
+  <body>
+    <header class="top-header">
+      <h1>EduPlay</h1>
+    </header>
+    <div class="cad">
+      <div class="text-cad">
+        <h1>Crie uma nova conta</h1>
+        <p>É rápido e fácil.</p>
+      </div>
+      <form action="/cadastro" method="POST" class="form_cad">
+        <input class="inp_log" type="text" name="nome" placeholder="Nome" required/>
+        <input class="inp_log" type="text" name="cpf" placeholder="CPF" required/>
+        
+        <label for="nasc">Data de nascimento:</label>
+        <input id="nasc" class="inp_log" type="date" name="data_nascimento" required/>
+
+        <label for="genero">Gênero:</label>
+        <select id="genero" class="inp_log" name="genero" required>
+          <option value="Masculino">Masculino</option> 
+          <option value="Feminino">Feminino</option> 
+          <option value="Outro">Outro</option> 
+          <option value="Prefiro não dizer">Prefiro não dizer</option>
+        </select>
+        
+        <input class="inp_log" type="text" name="email" placeholder="E-mail" required/>
+        <input class="inp_log" type="text" name="telefone" placeholder="Telefone" required/>
+        <input class="inp_log" type="password" name="senha" placeholder="Senha" required/>
+        <input class="inp_log" type="password" name="confirmar_senha" placeholder="Confirmar Senha" required/>
+        <button class="bot_log" type="submit">Cadastrar</button>
+        <a class="lik_log" href="/login">Já tem uma conta? Faça login</a>
+      </form>
+    </div>
+  </body>
+</html>

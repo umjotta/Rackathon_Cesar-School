@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recuperar Senha</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='recup.css') }}" />
+</head>
+<body>
+  <div class="EduPlay">
+    <h1>EduPlay</h1>
+    <p>A educação nas suas mãos</p>
+  </div>
+  <div class="recup-container">
+    <h2>Recuperar Senha</h2>
+    <form action="/recuperar_senha" method="POST" class="form_recup">
+      <label for="cpf">Digite seu CPF</label>
+      <input id="cpf" name="cpf" type="text" placeholder="000.000.000-00" required />
+      <label for="nova_senha">Nova Senha</label>
+      <input id="nova_senha" name="nova_senha" type="password" placeholder="Nova senha" required />
+      <button class="bot_recup" type="submit">Alterar Senha</button>
+      <a class="lik_log" href="{{ url_for('login') }}">Voltar ao login ></a>
+    </form>
+  </div>
+</body>
+</html>

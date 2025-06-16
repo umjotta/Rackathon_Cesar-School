@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "texto": "Qual a etapa inicial e fundamental para começar a escrever uma redação?",
+        "alternativa_a": "Escrever o título",
+        "alternativa_b": "Revisar a gramática",
+        "alternativa_c": "Fazer um rascunho",
+        "alternativa_d": "Compreender o tema",
+        "alternativa_e": "Pesquisar imagens",
+        "resposta_correta": "D"
+    },
+    {
+        "id": 2,
+        "texto": "Uma redação dissertativo-argumentativa tem como objetivo principal:",
+        "alternativa_a": "Contar uma história",
+        "alternativa_b": "Descrever um lugar",
+        "alternativa_c": "Expor e defender uma ideia",
+        "alternativa_d": "Instruir sobre algo",
+        "alternativa_e": "Fazer uma poesia",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 3,
+        "texto": "O que é uma tese em uma redação?",
+        "alternativa_a": "O último parágrafo do texto",
+        "alternativa_b": "A ideia principal que será defendida",
+        "alternativa_c": "Uma citação famosa",
+        "alternativa_d": "O resumo do texto",
+        "alternativa_e": "Um erro de português",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 4,
+        "texto": "Em que parte da redação a tese geralmente é apresentada?",
+        "alternativa_a": "Conclusão",
+        "alternativa_b": "Desenvolvimento",
+        "alternativa_c": "Introdução",
+        "alternativa_d": "Título",
+        "alternativa_e": "Rascunho",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 5,
+        "texto": "Qual o nome da parte da redação onde os argumentos são desenvolvidos?",
+        "alternativa_a": "Introdução",
+        "alternativa_b": "Conclusão",
+        "alternativa_c": "Título",
+        "alternativa_d": "Desenvolvimento",
+        "alternativa_e": "Epílogo",
+        "resposta_correta": "D"
+    },
+    {
+        "id": 6,
+        "texto": "A função da **conclusão** em uma redação é:",
+        "alternativa_a": "Apresentar novos argumentos",
+        "alternativa_b": "Citar fontes de pesquisa",
+        "alternativa_c": "Retomar a tese e propor uma solução ou reflexão final",
+        "alternativa_d": "Descrever detalhes da introdução",
+        "alternativa_e": "Fazer perguntas ao leitor",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 7,
+        "texto": "O que são **conectivos** em uma redação?",
+        "alternativa_a": "Palavras soltas que não têm função",
+        "alternativa_b": "Erros de ortografia",
+        "alternativa_c": "Palavras ou expressões que ligam ideias e parágrafos",
+        "alternativa_d": "Sinônimos de palavras difíceis",
+        "alternativa_e": "Nomes de pessoas famosas",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 8,
+        "texto": "Qual a importância da **coerência** na redação?",
+        "alternativa_a": "Deixar o texto mais bonito",
+        "alternativa_b": "Garantir que as ideias do texto façam sentido e estejam conectadas",
+        "alternativa_c": "Aumentar o número de palavras",
+        "alternativa_d": "Facilitar a cópia de outros textos",
+        "alternativa_e": "Usar palavras difíceis",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 9,
+        "texto": "Ao finalizar a redação, qual é uma das últimas e mais importantes etapas?",
+        "alternativa_a": "Publicar em redes sociais",
+        "alternativa_b": "Guardar e esquecer",
+        "alternativa_c": "Revisar a gramática, ortografia e pontuação",
+        "alternativa_d": "Começar outra redação imediatamente",
+        "alternativa_e": "Pedir para alguém escrever por você",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 10,
+        "texto": "O que é um **parágrafo** em uma redação?",
+        "alternativa_a": "Uma única frase isolada",
+        "alternativa_b": "Um conjunto de frases que desenvolvem uma ideia central",
+        "alternativa_c": "O título da redação",
+        "alternativa_d": "A margem do texto",
+        "alternativa_e": "Uma imagem ilustrativa",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 11,
+        "texto": "Qual tipo de linguagem deve ser preferida em uma redação formal?",
+        "alternativa_a": "Gírias e abreviações",
+        "alternativa_b": "Linguagem informal e coloquial",
+        "alternativa_c": "Linguagem clara, objetiva e de acordo com a norma padrão",
+        "alternativa_d": "Linguagem poética e com rimas",
+        "alternativa_e": "Linguagem totalmente inventada",
+        "resposta_correta": "C"
+    }
+]

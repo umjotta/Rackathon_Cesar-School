@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  .EduPlay {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .recup-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  .recup-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form_recup label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .form_recup input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .bot_recup {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .bot_recup:hover {
+    background-color: #005fa3;
+  }
+  
+  .lik_log {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .lik_log:hover {
+    text-decoration: underline;
+  }
+  

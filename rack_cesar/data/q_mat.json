@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "texto": "Se um número é multiplicado por 3 e depois somado a 5, o resultado é 20. Qual é o número?",
+        "alternativa_a": "3", 
+        "alternativa_b": "5",
+        "alternativa_c": "7", 
+        "alternativa_d": "6", 
+        "alternativa_e": "4",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 2,
+        "texto": "O perímetro de um triângulo equilátero com lados de 12 cm é:",
+        "alternativa_a": "24 cm", 
+        "alternativa_b": "30 cm", 
+        "alternativa_c": "36 cm", 
+        "alternativa_d": "48 cm",
+        "alternativa_e": "12 cm",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 3,
+        "texto": "Se um cilindro tem altura de 10 cm e raio da base de 5 cm, qual é o seu volume?",
+        "alternativa_a": "250π cm³", 
+        "alternativa_b": "500π cm³", 
+        "alternativa_c": "750π cm³",
+        "alternativa_d": "1000π cm³", 
+        "alternativa_e": "1500π cm³",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 4,
+        "texto": "Quanto é 5 + 3?",
+        "alternativa_a": "7",
+        "alternativa_b": "8",
+        "alternativa_c": "9",
+        "alternativa_d": "10",
+        "alternativa_e": "6",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 5,
+        "texto": "Qual é o resultado de 10 - 4?",
+        "alternativa_a": "5",
+        "alternativa_b": "6",
+        "alternativa_c": "7",
+        "alternativa_d": "8",
+        "alternativa_e": "4",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 6,
+        "texto": "Se você tem 2 maçãs e ganha mais 3, quantas maçãs você tem no total?",
+        "alternativa_a": "4",
+        "alternativa_b": "5",
+        "alternativa_c": "6",
+        "alternativa_d": "7",
+        "alternativa_e": "3",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 7,
+        "texto": "Quanto é 2 multiplicado por 4?",
+        "alternativa_a": "6",
+        "alternativa_b": "7",
+        "alternativa_c": "8",
+        "alternativa_d": "9",
+        "alternativa_e": "10",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 8,
+        "texto": "Divida 12 por 3. Qual é o resultado?",
+        "alternativa_a": "3",
+        "alternativa_b": "4",
+        "alternativa_c": "5",
+        "alternativa_d": "6",
+        "alternativa_e": "2",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 9,
+        "texto": "Qual é o próximo número na sequência: 1, 2, 3, 4, ___?",
+        "alternativa_a": "5",
+        "alternativa_b": "6",
+        "alternativa_c": "7",
+        "alternativa_d": "8",
+        "alternativa_e": "9",
+        "resposta_correta": "A"
+    },
+    {
+        "id": 10,
+        "texto": "Se um lápis custa R$ 1,50, quanto custam 2 lápis?",
+        "alternativa_a": "R$ 2,00",
+        "alternativa_b": "R$ 2,50",
+        "alternativa_c": "R$ 3,00",
+        "alternativa_d": "R$ 3,50",
+        "alternativa_e": "R$ 4,00",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 11,
+        "texto": "Qual o dobro de 5?",
+        "alternativa_a": "7",
+        "alternativa_b": "8",
+        "alternativa_c": "9",
+        "alternativa_d": "10",
+        "alternativa_e": "12",
+        "resposta_correta": "D"
+    }
+]

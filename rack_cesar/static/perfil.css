@@ -1,0 +1,137 @@
+/* Reset de estilos para garantir consistência */
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #dcdcdca1;
+}
+
+.barra_lateral {
+    position: fixed;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+#logo_barra {
+    width: 65px;
+    height: 65px;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    border-radius: 20%;
+   /* align-self: flex-start; */
+    position: relative;
+    left: -95px; /* Ajuste conforme necessário */
+}
+
+#logo_barra:hover {
+    transform: scale(1.1);
+}
+
+/* Menu de navegação */
+.menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #8b898980;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    position: relative;
+    left: -50px;
+}
+.menu a:hover {
+    background-color: rgba(187, 186, 186, 0.247);
+    color: rgb(11, 61, 127);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Área principal */
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+.bem-vindo h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Seção do perfil */
+.profile-section {
+    text-align: center;
+    background-color: #fffcfc;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    max-width: 500px;
+    height: 600px;
+}
+
+/* Foto do perfil */
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-icon {
+  width: 111px;
+  height: 111px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.user-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Dados do usuário */
+.profile-info {
+    font-size: 18px;
+    text-align: left;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.profile-info p {
+    margin: 10px 0;
+}
+
+#info-usuario {
+    background-color: transparent;
+    border: 1px solid #8b898956;
+    color: #8B8989;
+    padding: 1%;
+    border-radius: 5px;
+    width: 450px;
+    height: 20px;
+}
+
+.nomm {
+    height: 30px !important;
+    font-size: 5px !important;
+}
+

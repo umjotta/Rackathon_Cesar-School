@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='exerc.css') }}"/>
+    <link rel="stylesheet" href="/rack_cesar/static/exerc.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!--Importando icones-->
+  </head>
+  <body id="body_home">
+    
+    <aside class="barra_lateral">
+      <img id="logo_barra" src="{{ url_for('static', filename='fotos/logo.png') }}" alt="Logo" />
+      <nav class="menu">
+        <ul>
+            <li><a href="{{ url_for('home') }}"><i id="icon" class="fa-solid fa-house"></i> <span>Home</span></a></li>
+            <li><a href="{{ url_for('aula') }}"><i id="icon" class="fa-brands fa-youtube"></i> <span>Aulas</span></a></li>
+            <li><a href="{{ url_for('exerc') }}"><i id="icon" class="fa-solid fa-list-check"></i> <span>Exercícios</span></a></li>
+            <li><a href="{{ url_for('jogo') }}"><i id="icon" class="fa-solid fa-gamepad"></i> <span>Jogos</span></a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <section class="home">
+        <div class="bem-vindo">
+            <h1>Bem-vindo à área de exercicios</h1>
+            <div class="user-icon">
+                <a href="{{ url_for('perfil') }}">
+                    <img src="{{ url_for('static', filename='fotos/Jotta.jpg') }}" alt="Usuário">
+                </a>
+            </div>
+        </div>
+      <div class="aba-principal">
+        <!-- <h2><center>Escolha á materia</center></h2> <br> -->
+         <p>Escolha a meteria</p>
+        <div class="mini-blocos">
+          <a href="{{ url_for('exercicios', materia='portugues') }}" class="bloco">Português</a>
+          <a href="{{ url_for('exercicios', materia='matematica') }}" class="bloco"><p>Matemática</p></a>
+          <a href="{{ url_for('exercicios', materia='javascript') }}" class="bloco"><p>Quimica</p></a>
+          <a href="{{ url_for('exercicios', materia='css') }}" class="bloco"><p>Redação</p></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

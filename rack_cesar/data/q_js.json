@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "texto": "Um átomo de carbono que está ligado a apenas um outro átomo de carbono é classificado como carbono:",
+        "alternativa_a": "Primário",
+        "alternativa_b": "Secundário",
+        "alternativa_c": "Terciário",
+        "alternativa_d": "Quaternário",
+        "alternativa_e": "Insaturado",
+        "resposta_correta": "A"
+    },
+    {
+        "id": 2,
+        "texto": "Quantas ligações um átomo de carbono pode fazer no total para ser considerado saturado?",
+        "alternativa_a": "2",
+        "alternativa_b": "3",
+        "alternativa_c": "4",
+        "alternativa_d": "5",
+        "alternativa_e": "6",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 3,
+        "texto": "Um carbono secundário está ligado a quantos outros átomos de carbono?",
+        "alternativa_a": "1",
+        "alternativa_b": "2",
+        "alternativa_c": "3",
+        "alternativa_d": "4",
+        "alternativa_e": "Nenhum",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 4,
+        "texto": "Qual o tipo de carbono ligado a três outros átomos de carbono?",
+        "alternativa_a": "Primário",
+        "alternativa_b": "Secundário",
+        "alternativa_c": "Terciário",
+        "alternativa_d": "Quaternário",
+        "alternativa_e": "Ciclico",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 5,
+        "texto": "Um carbono que está ligado a quatro outros átomos de carbono é chamado de:",
+        "alternativa_a": "Primário",
+        "alternativa_b": "Secundário",
+        "alternativa_c": "Terciário",
+        "alternativa_d": "Quaternário",
+        "alternativa_e": "Aromático",
+        "resposta_correta": "D"
+    },
+    {
+        "id": 6,
+        "texto": "Em uma cadeia carbônica, o carbono na extremidade (ponta) é geralmente classificado como:",
+        "alternativa_a": "Secundário",
+        "alternativa_b": "Terciário",
+        "alternativa_c": "Primário",
+        "alternativa_d": "Quaternário",
+        "alternativa_e": "Central",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 7,
+        "texto": "Um carbono que possui uma ligação dupla é considerado:",
+        "alternativa_a": "Saturado",
+        "alternativa_b": "Insaturado",
+        "alternativa_c": "Primário",
+        "alternativa_d": "Terciário",
+        "alternativa_e": "Cíclico",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 8,
+        "texto": "Qual a principal diferença entre um carbono saturado e um insaturado?",
+        "alternativa_a": "O número de hidrogênios ligados",
+        "alternativa_b": "O tipo de hibridização",
+        "alternativa_c": "A presença de ligações duplas ou triplas",
+        "alternativa_d": "O tamanho da cadeia carbônica",
+        "alternativa_e": "A polaridade da ligação",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 9,
+        "texto": "Em um alcano (cadeia carbônica simples), todos os carbonos são:",
+        "alternativa_a": "Insaturados",
+        "alternativa_b": "Terciários",
+        "alternativa_c": "Saturados",
+        "alternativa_d": "Quaternários",
+        "alternativa_e": "Aromáticos",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 10,
+        "texto": "Se um carbono faz uma ligação tripla, ele ainda é considerado:",
+        "alternativa_a": "Saturado",
+        "alternativa_b": "Primário",
+        "alternativa_c": "Secundário",
+        "alternativa_d": "Insaturado",
+        "alternativa_e": "Terciário",
+        "resposta_correta": "D"
+    },
+    {
+        "id": 11,
+        "texto": "Qual o prefixo usado para indicar uma cadeia carbônica com dois átomos de carbono?",
+        "alternativa_a": "Met-",
+        "alternativa_b": "Et-",
+        "alternativa_c": "Prop-",
+        "alternativa_d": "But-",
+        "alternativa_e": "Pent-",
+        "resposta_correta": "B"
+    }
+]

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #dcdcdca1;
+}
+
+
+.barra_lateral {
+    position: fixed;
+    background-color: #ffffff;
+    height: 100vh;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+#logo_barra {
+    width: 65px;
+    height: 65px;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    border-radius: 20%;
+    position: relative;
+    left: -95px;
+}
+
+#logo_barra:hover {
+    transform: scale(1.1);
+}
+
+/* Menu de navegação */
+.menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #8b898980;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    position: relative;
+    left: -50px;
+}
+.menu a:hover {
+    background-color: rgba(187, 186, 186, 0.247);
+    color: rgb(11, 61, 127);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+
+
+.main-content {
+  margin-left: 270px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.bem-vindo {
+  margin-top: 2%;
+  margin-bottom: 111px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user-icon img:hover {
+  transform: scale(1.2);
+}
+
+.video-section h2 {
+  margin-bottom: 25px;
+}
+
+/* Container de vídeos com rolagem horizontal */
+.video-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(11, 61, 127) #ccc;
+}
+
+/* Estilização dos vídeos */
+.video {
+  background-color: rgb(11, 61, 127);
+  color: #FFFAFA;
+  font-weight: bold;
+  font-size: 20px;
+  width: 280px;
+  height: 180px;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 2%; 
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.video:hover {
+  transform: scale(1.1);
+}
+
+#video-aulas {
+  width: 70%;
+  height: 185px;
+  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20%;
+  align-items: center;
+  justify-content: center;
+}
+#video-aulas:hover {
+  transform: scale(1.1);
+}

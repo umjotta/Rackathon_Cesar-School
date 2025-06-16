@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUPLAY - Perfil</title>
+    <link rel="stylesheet" href="/rack_cesar/static/perfil.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='perfil.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!--Importando icones-->
+</head>
+<body>
+
+    <!-- Barra Lateral -->
+    <aside class="barra_lateral">
+        <img id="logo_barra" src="{{ url_for('static', filename='fotos/logo.png') }}" alt="Logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="{{ url_for('home') }}"><i id="icon" class="fa-solid fa-house"></i> <span>Home</span></a></li>
+                <li><a href="{{ url_for('aula') }}"><i id="icon" class="fa-brands fa-youtube"></i> <span>Aulas</span></a></li>
+                <li><a href="{{ url_for('exerc') }}"><i id="icon" class="fa-solid fa-list-check"></i> <span>Exercícios</span></a></li>
+                <li><a href="{{ url_for('jogo') }}"><i id="icon" class="fa-solid fa-gamepad"></i> <span>Jogos</span></a></li>
+            </ul>
+        </nav>
+    </aside>
+    <!-- Fim barra Lateral -->
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <header class="bem-vindo">
+            <h1>Perfil do Usuário</h1>
+        </header>
+
+        <!-- Seção do Perfil -->
+        <section class="profile-section">
+            <div class="profile-header">
+                <img src="{{ url_for('static', filename='fotos/Jotta.jpg') }}" class="user-icon">
+                <h2>{{ aluno.nome }}</h2>
+            </div>
+
+            <div class="profile-info">
+                <div class="info-usario">
+                    <p>Email:</p>
+                    <p id="info-usuario" class="nomm">{{ aluno.nome }}</p>
+                    <p>Email:</p>
+                    <p id="info-usuario">{{ aluno.email }}</p>
+                    <p>Telefone:</p> 
+                    <p id="info-usuario">{{ aluno.telefone }}</p>
+                    <p>Data de Nascimento:</p> 
+                    <p id="info-usuario">{{ aluno.data_nascimento }}</p>
+                    <p>Genero:</p> 
+                    <p id="info-usuario">{{ aluno.genero }}</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

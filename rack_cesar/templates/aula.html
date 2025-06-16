@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUPLAY - Sala de Questões</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='aula.css') }}"/>
+    <link rel="stylesheet" href="/rack_cesar/static/aula.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!--Importando icones-->
+  </head>
+  <body>
+      <aside class="barra_lateral">
+        <img id="logo_barra" src="{{ url_for('static', filename='fotos/logo.png') }}"/>
+        <nav class="menu">
+          <ul>
+            <li><a href="{{ url_for('home') }}"><i id="icon" class="fa-solid fa-house"></i> <span>Home</span></a></li>
+            <li><a href="{{ url_for('aula') }}"><i id="icon" class="fa-brands fa-youtube"></i> <span>Aulas</span></a></li>
+            <li><a href="{{ url_for('exerc') }}"><i id="icon" class="fa-solid fa-list-check"></i> <span>Exercícios</span></a></li>
+            <li><a href="{{ url_for('jogo') }}"><i id="icon" class="fa-solid fa-gamepad"></i> <span>Jogos</span></a></li>
+          </ul>
+        </nav>
+      </aside>
+
+    <div class="main-content">
+      
+      <header class="bem-vindo">
+        <h1>Olá, Bem-Vindo à área de aulas</h1>
+        <div class="user-icon">
+          <a href="{{ url_for('perfil') }}">
+            <img src="{{ url_for('static', filename='fotos/Jotta.jpg') }}" alt="Usuário">
+          </a>
+        </div>
+      </header>
+
+      <!-- Seção Português -->
+      <section class="video-section">
+        <h2>Português</h2>
+        <div class="video-container">
+            <a class="video" href="https://www.youtube.com/watch?v=WfP2bl5xb5E&t=34s">Interpreteção de texto</a>
+            <a class="video" href="https://youtu.be/WGZFBePibF0?si=F7EkX-1Ay-qMf4Fo">Literatura</a>
+            <a class="video" href="https://youtu.be/Sy_LUnePfRE?si=P16VYjV3jEDSYgtU">Acentuação</a>
+            <a class="video" href="https://youtu.be/51Vj6uzsdaA?si=NXBlokSHWD1CYNhS">gêneros textuais</a>
+        </div>
+      </section>
+
+      <!-- Seção Matemática -->
+      <section class="video-section">
+        <h2>Matemática</h2>
+        <div class="video-container">
+          <a class="video" href="https://youtu.be/PmlNQeBfp7I?si=jdCj4mcCqO-F39ce">MMC</a>
+          <a class="video" href="https://youtu.be/hgr3iNJdLzE?si=yBCSMPtobMrVNVlf">Fatoração</a>
+          <a class="video" href="https://youtu.be/lUwgX7XUg4w?si=g0LZEaROYuXAEtAl">Divisão</a>
+          <a class="video" href="https://youtu.be/izaSmMXZRgk?si=NPyPaMloMoOPJTbL">Multiplicação</a>
+        </div>
+      </section>
+      
+      <!-- Seção JavaScript -->
+      <section class="video-section">
+        <h2>Quimica</h2>
+        <div class="video-container">
+          <a class="video" href="#">Nomeclatura</a>
+          <a class="video" href="https://youtu.be/zRggv75T7B4?si=bOQ2dq7cc3CBF3IM">Funções inorgânicas</a>
+          <a class="video" href="https://youtu.be/OpASM1pCM2E?si=pJ_hctZf-jRboWbG">Tabela periódica</a>
+          <a class="video" href="https://youtu.be/oCI-07oGg_s?si=JjyYMKH7CJI75-_f">Separação de misturas</a>
+        </div>
+      </section>
+
+      <!-- Seção CSS -->
+      <section class="video-section">
+        <h2>Redação</h2>
+        <div class="video-container">
+          <a class="video" href="https://youtu.be/fSijvs_XXmg?si=4EY3R2vtLzE130M0 ">Conhecimento gerais</a>
+          <a class="video" href="https://youtu.be/ODkVN0kRciE?si=d2SbqrciXC9olxOU">Pontução</a>
+          <a class="video" href="#">Temas</a>
+          <a class="video" href="#">Coerência</a>
+      </section>
+    </div>
+  </body>

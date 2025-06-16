@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "texto": "Qual é a figura de linguagem presente na frase: 'A cidade dorme tranquila sob o céu estrelado.'?",
+        "alternativa_a": "Metáfora",
+        "alternativa_b": "Hipérbole",
+        "alternativa_c": "Personificação",
+        "alternativa_d": "Paradoxo",
+        "alternativa_e": "Eufemismo",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 2,
+        "texto": "Qual é a função do pronome relativo na frase: 'O livro que comprei é muito interessante.'?",
+        "alternativa_a": "Substituir um substantivo",
+        "alternativa_b": "Indicar posse",
+        "alternativa_c": "Introduzir uma oração subordinada",
+        "alternativa_d": "Expressar um sentimento",
+        "alternativa_e": "Enfatizar uma ideia",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 3,
+        "texto": "O verbo 'caber' na primeira pessoa do singular do futuro do presente é:",
+        "alternativa_a": "Caberei", 
+        "alternativa_b": "Cabo", 
+        "alternativa_c": "Cabei",
+        "alternativa_d": "Caberia", 
+        "alternativa_e": "Cabeste",
+        "resposta_correta": "A"
+    },
+    {
+        "id": 4,
+        "texto": "Qual das palavras abaixo é um substantivo próprio?",
+        "alternativa_a": "mesa",
+        "alternativa_b": "cachorro",
+        "alternativa_c": "Brasil",
+        "alternativa_d": "bonito",
+        "alternativa_e": "correr",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 5,
+        "texto": "Na frase 'Eu gosto de comer maçãs.', qual é o verbo?",
+        "alternativa_a": "Eu",
+        "alternativa_b": "gosto",
+        "alternativa_c": "comer",
+        "alternativa_d": "maçãs",
+        "alternativa_e": "de",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 6,
+        "texto": "Qual das opções apresenta apenas vogais?",
+        "alternativa_a": "A, B, C",
+        "alternativa_b": "A, E, I",
+        "alternativa_c": "B, C, D",
+        "alternativa_d": "E, F, G",
+        "alternativa_e": "I, J, K",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 7,
+        "texto": "Assinale a alternativa que contém um adjetivo:",
+        "alternativa_a": "casa",
+        "alternativa_b": "flor",
+        "alternativa_c": "rápido",
+        "alternativa_d": "pular",
+        "alternativa_e": "livro",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 8,
+        "texto": "Qual das frases está no passado?",
+        "alternativa_a": "Eu vou viajar amanhã.",
+        "alternativa_b": "Nós estudamos muito ontem.",
+        "alternativa_c": "Eles estão brincando agora.",
+        "alternativa_d": "Ela comerá bolo mais tarde.",
+        "alternativa_e": "Você é muito legal.",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 9,
+        "texto": "O plural de 'flor' é:",
+        "alternativa_a": "flors",
+        "alternativa_b": "flores",
+        "alternativa_c": "florinhas",
+        "alternativa_d": "floresta",
+        "alternativa_e": "floral",
+        "resposta_correta": "B"
+    },
+    {
+        "id": 10,
+        "texto": "Complete a frase com a preposição correta: 'Vou ___ casa da minha avó.'",
+        "alternativa_a": "em",
+        "alternativa_b": "com",
+        "alternativa_c": "para",
+        "alternativa_d": "por",
+        "alternativa_e": "de",
+        "resposta_correta": "C"
+    },
+    {
+        "id": 11,
+        "texto": "Qual das palavras é um sinônimo de 'feliz'?",
+        "alternativa_a": "triste",
+        "alternativa_b": "alegre",
+        "alternativa_c": "bravo",
+        "alternativa_d": "cansado",
+        "alternativa_e": "chateado",
+        "resposta_correta": "B"
+    }
+]
