@@ -127,3 +127,8 @@ body {
 .bloco:hover {
   transform: scale(1.1);
 }
+
+.bort {
+  position: relative;
+  top: 350px;
+}
