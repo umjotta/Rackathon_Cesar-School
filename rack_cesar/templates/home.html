@@ -18,6 +18,7 @@
           <li><a href="{{ url_for('aula') }}"><i id="icon" class="fa-brands fa-youtube"></i> <span>Aulas</span></a></li>
           <li><a href="{{ url_for('exerc') }}"><i id="icon" class="fa-solid fa-list-check"></i> <span>Exercícios</span></a></li>
           <li><a href="{{ url_for('jogo') }}"><i id="icon" class="fa-solid fa-gamepad"></i> <span>Jogos</span></a></li>
+          <li class="bort"><form action="{{ url_for('excluir_conta') }}" method="post"><button type="submit"><i class="fa-solid fa-trash"></i> <span>Excluir Conta</span></button></form></li>
         </ul>
       </nav>
     </aside>
@@ -49,13 +50,13 @@
             {% endfor %}
           </div>
 
-          <div class="mini-blocos">
+          <!-- <div class="mini-blocos">
             <div class="bloco">
               <h3>Jogos - Estatistics</h3>
-              <!-- Conteúdo extra para jogos, se desejado -->
+               Conteúdo extra para jogos, se desejado
             </div>
-            <!-- Outros blocos para jogos, se necessário -->
-          </div>
+             Outros blocos para jogos, se necessário
+          </div> -->
       </div>
     </section>
   </body>
